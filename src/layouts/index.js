@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="sans-serif">
     <link
       rel="stylesheet"
       href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"
