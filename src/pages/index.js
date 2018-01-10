@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-const P = props => (
-  <p className="lh-copy measure-wide center">{props.children}</p>
+const P = ({ children }) => (
+  <p className="lh-copy measure-wide center">{children}</p>
 );
 
 const IndexPage = () => (
